@@ -1,10 +1,14 @@
-import styles from './App.module.css'
+import Header from "~components/Header";
+
+import styles from './App.module.css';
+
 
 const App = () => {
 
   return (
     <div className={styles.wrapper}>
-      <h1>Vite + React + TS + ESLint template</h1>
+      <Header />
+      <h2>Vite + React + TS + ESLint template</h2>
     </div>
   )
 }
